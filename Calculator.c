@@ -16,7 +16,10 @@ int main(){
 //if user says he want to try again, the program will restart from here...
 label1:
 
-    printf("Enter the operator (+ - * /) : ");
+    //clears the terminal screen
+    system("cls"); 
+
+    printf("Enter the operator (+ - * / %) : ");
     scanf("\n%c", &operator);
 
     //check the input for operators
@@ -95,6 +98,6 @@ void printDiv(float num1, float num2){
 }
 
 void printModu(int num1, int num2){
-    int modu = num1 % num2; 
-    printf("Modules of %.0d & %.0d is: %.0d", num1, num2, (num1%num2)); 
+    int modu = num1 % num2;
+    printf("Modules of %d & %d is: %d", num1, num2, modu); 
 }
