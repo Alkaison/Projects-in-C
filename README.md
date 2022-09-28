@@ -38,6 +38,16 @@ The following conversions can be performed using this converter:
 
 ![Unit Converter Image 6](https://i.ibb.co/2YQhGMT/Screenshot-2022-09-27-235500.png)
 
+## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/FunHack.c)
+
+Program that makes you feel like a hacker, works on terminals (command prompt) only. It executes linux based commands in your terminal & creates an infinity loop which keeps listing the current directory files.
+
+![FunHack Image 0](https://i.ibb.co/7XKJZnz/Screenshot-2022-09-28-185349.png)
+
+![FunHack Image 1](https://i.ibb.co/7jBcQLM/Screenshot-2022-09-28-185412.png)
+
+![FunHack Image 2](https://i.ibb.co/MMdSnmv/Screenshot-2022-09-28-185655.png)
+
 ## Contact me through 📨
 
 <a href="https://discord.gg/dF4PHpA"><img src='https://img.shields.io/discord/995692977320112178?color=7289DA&logo=discord&logoColor=white&style=for-the-badge'/></a>
