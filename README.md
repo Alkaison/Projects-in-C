@@ -50,6 +50,12 @@ Program that makes you feel like a hacker, works on terminals (command prompt) o
 
 ## 4. PassProtector - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PassProtector.c)
 
+Program which accepts the password in hidden format & tells whether its correct or not. Its very much useful for programs which stores data & wants to keep it secure from strangers access. 
+
+![PassProtector Image 0](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Screenshot%202022-10-01%20165248.png)
+
+![PassProtector Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Screenshot%202022-10-01%20165324.png)
+
 ## Contact me through 📨
 
 <a href="https://discord.gg/dF4PHpA"><img src='https://img.shields.io/discord/995692977320112178?color=7289DA&logo=discord&logoColor=white&style=for-the-badge'/></a>
