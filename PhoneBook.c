@@ -74,9 +74,14 @@ void password()
 
 void menu()
 {
+    int input;
+
     system("cls");
 
-    char input;
+label1:
+
+    //clears the input stream - prevents the program from going into infinite loop
+    fflush(stdin);
 
     printf(">>> Phone Book Main Menu <<< \n");
     printf("> 1. Add \n");
@@ -85,10 +90,71 @@ void menu()
     printf("> 4. List \n");
     printf("> 5. Delete \n");
     printf("\n");
-    printf("> 0. Close the Phone Book \n");
+    printf("> 6. Close the Phone Book \n\n");
 
     printf("Please enter a number to proceed: ");
-    scanf("%c",&input);
+    scanf("%d",&input);
+
+    switch (input)
+    {
+    case 1:
+        add();
+        break;
+    case 2:
+        search();
+        break;
+
+    case 3:
+        modify();
+        break;
+
+    case 4:
+        list();
+        break;
+
+    case 5:
+        delete();
+        break;
+
+    case 6:
+        end();
+        break;
+
+    default:
+        printf("\nXXX - Invaild input - XXX\n\n");
+        goto label1;
+        break;
+    }
     
     //Symbols: ↪⇒0⇐⇶▢▷▶◀◁◯⨠⫸ 
+}
+
+void add()
+{
+    printf("\nAdd record.");
+}
+
+void search()
+{
+    printf("\nSearch record.");
+}
+
+void modify()
+{
+    printf("\nModify record.");
+}
+
+void list()
+{
+    printf("\nlist record.");
+}
+
+void delete()
+{
+    printf("\nDelete record.");
+}
+
+void end()
+{
+    printf("\nEnd program.");
 }
