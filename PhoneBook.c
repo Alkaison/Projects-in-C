@@ -76,7 +76,7 @@ void menu()
 {
     system("cls");
 
-    char response;
+    char input;
 
     printf(">>> Phone Book Main Menu <<< \n");
     printf("> 1. Add \n");
@@ -88,7 +88,7 @@ void menu()
     printf("> 0. Close the Phone Book \n");
 
     printf("Please enter a number to proceed: ");
-    scanf("%c",&response);
+    scanf("%c",&input);
     
     //Symbols: ↪⇒0⇐⇶▢▷▶◀◁◯⨠⫸ 
 }
