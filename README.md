@@ -56,7 +56,7 @@ Program which accepts the password in hidden format & tells whether its correct 
 
 ![PassProtector Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Screenshot%202022-10-01%20165324.png)
 
-## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Phonebook.c)
+## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PhoneBook.c)
 
 - This is under development & soon it will be uploaded completely on github. 
 
