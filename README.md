@@ -79,9 +79,47 @@ Program which accepts the password in hidden format & tells whether its correct 
 ### 02. Inavild Password
 ![PassProtector Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-2.png)
 
-## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PhoneBook.c)
+## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PhoneBook.c "Code for PhoneBook")
 
-- This is under development & soon it will be uploaded completely on github. 
+Phone Book is secured with a layer of password screen to secure its access from strangers. This Phone Book project generates an external file to permanently store the user’s data (Name, Address, Mail-ID, Phone Number). Made using the concepts of File Management.
+
+The Phone Book can perform this following operations:
+
+- Adding Records
+
+- Searching for Record
+
+- Modifying Records
+
+- Listing All Records
+
+- Deletion of Record
+
+- Bonus: Secured with Password 
+
+### 01. Login Screen - Password: Alkaison
+![PhoneBook Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-1.png)
+
+### 02. Main Menu
+![PhoneBook Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-2.png)
+
+### 03. List Record
+![PhoneBook Image 3](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-3.png)
+
+### 04. Add Record
+![PhoneBook Image 4](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-4.png)
+
+### 05. Search Record
+![PhoneBook Image 5](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-5.png)
+
+### 06. Deleted Record
+![PhoneBook Image 6](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-6.png)
+
+### 07. Modify Record
+![PhoneBook Image 7](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-7.png)
+
+### 08. Credit Screen / End 
+![PhoneBook Image 8](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PhoneBook-8.png)
 
 ## Contact me through 📨
 
@@ -95,5 +133,5 @@ Program which accepts the password in hidden format & tells whether its correct 
 
 ## Support
 
-For personal project support, join our Discord Server [here](https://discord.gg/dF4PHpA)
+For personal project support, join our Discord Server [here](https://discord.gg/dF4PHpA "Byte Hub Discord")
 
