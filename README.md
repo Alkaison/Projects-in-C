@@ -56,23 +56,28 @@ The following conversions can be performed using this converter:
 ### 06. Grams to Pounds
 ![Unit Converter Image 6](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-6.png)
 
-## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/FunHack.c)
+## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/FunHack.c "Code for FunHack")
 
 Program that makes you feel like a hacker, works on terminals (command prompt) only. It executes linux based commands in your terminal & creates an infinity loop which keeps listing the current directory files.
 
-![FunHack Image 0](https://i.ibb.co/7XKJZnz/Screenshot-2022-09-28-185349.png)
+### 01. Enter A/c No.
+![FunHack Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/FunHack-1.png)
 
-![FunHack Image 1](https://i.ibb.co/7jBcQLM/Screenshot-2022-09-28-185412.png)
+### 02. Processing screen
+![FunHack Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/FunHack-2.png)
 
-![FunHack Image 2](https://i.ibb.co/MMdSnmv/Screenshot-2022-09-28-185655.png)
+### 03. Hacked!
+![FunHack Image 3](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/FunHack-3.png)
 
-## 4. PassProtector - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PassProtector.c)
+## 4. PassProtector - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PassProtector.c "Code for PassProtector")
 
-Program which accepts the password in hidden format & tells whether its correct or not. Its very much useful for programs which stores data & wants to keep it secure from strangers access. 
+Program which accepts the password in hidden format & tells whether its correct or not. Its very much useful for programs which stores data & wants to keep it secure from strangers access.
 
-![PassProtector Image 0](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Screenshot%202022-10-01%20165248.png)
+### 01. Logged In!
+![PassProtector Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-1.png)
 
-![PassProtector Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Screenshot%202022-10-01%20165324.png)
+### 02. Inavild Password
+![PassProtector Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-2.png)
 
 ## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PhoneBook.c)
 
