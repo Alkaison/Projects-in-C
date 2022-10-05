@@ -1,15 +1,27 @@
 
 # Projects-in-C
 
- C programming projects for beginners & first year students of CSE, IT, BCA.
+ 5+ Exciting C projects ideas with source code. Projects for beginners & first year students of CSE, IT, BCA.
 
-## 1. Calculator - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Calculator.c)
+## 1. Calculator - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Calculator.c "Code for Calculator")
 
-Simple Calculator which can perform operations on + - * / % in a faster way!  
+Simple Calculator made using C language can perform operations on multiple operators.
 
-![Calculator Output Image](https://i.ibb.co/6rLq8dS/Screenshot-2022-09-25-203020.png)
+- Addition (+)
 
-![Calculator Output Image](https://i.ibb.co/SNGVpNr/Screenshot-2022-09-25-202949.png)
+- Subtraction (-)
+
+- Multiplication (*)
+
+- Division (/)
+
+- Moduloes (%)
+
+### 01. Operator Selection
+![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-1.png)
+
+### 02. Result Page
+![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-2.png)
 
 ## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/UnitConverter.c)
 
