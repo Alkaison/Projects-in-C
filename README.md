@@ -18,14 +18,14 @@ Simple Calculator made using C language can perform operations on multiple opera
 - Moduloes (%)
 
 ### 01. Operator Selection
-![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-1.png)
+![Calculator Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-1.png)
 
 ### 02. Result Page
-![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-2.png)
+![Calculator Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-2.png)
 
-## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/UnitConverter.c)
+## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/UnitConverter.c "Code for UnitConverter")
 
-Unit Converter can perform conversions into 3 different categories - Temperature, Mass, Currency.
+Unit Converter can perform conversions into 3 different categories - **Temperature, Mass, Currency**
 
 The following conversions can be performed using this converter:
 
@@ -38,17 +38,23 @@ The following conversions can be performed using this converter:
 - USD to Chinese Yuan
 - USD to Indian Rupee
 
-![Unit Converter Image 0](https://i.ibb.co/VxLFhcT/Screenshot-2022-09-27-235100.png)
+### 01. Main Menu
+![Unit Converter Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-1.png)
 
-![Unit Converter Image 1](https://i.ibb.co/PT4GCT2/Screenshot-2022-09-27-235128.png)
+### 02. Temperature Converter
+![Unit Converter Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-2.png)
 
-![Unit Converter Image 2](https://i.ibb.co/CbYmGGP/Screenshot-2022-09-27-235251.png)
+### 03. Mass Converter
+![Unit Converter Image 3](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-3.png)
 
-![Unit Converter Image 3](https://i.ibb.co/jHZN0y5/Screenshot-2022-09-27-235315.png)
+### 04. Currrency Converter
+![Unit Converter Image 4](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-4.png)
 
-![Unit Converter Image 4](https://i.ibb.co/py0jkHJ/Screenshot-2022-09-27-235343.png)
+### 05. USD to INR
+![Unit Converter Image 5](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-5.png)
 
-![Unit Converter Image 6](https://i.ibb.co/2YQhGMT/Screenshot-2022-09-27-235500.png)
+### 06. Grams to Pounds
+![Unit Converter Image 6](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-6.png)
 
 ## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/FunHack.c)
 
