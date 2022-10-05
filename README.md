@@ -17,10 +17,10 @@ Simple Calculator made using C language can perform operations on multiple opera
 
 - Moduloes (%)
 
-### 01. Operator Selection
+### I. Operator Selection
 ![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-1.png)
 
-### 02. Result Page
+### II. Result Page
 ![Calculator Output Image](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-2.png)
 
 ## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/UnitConverter.c)
