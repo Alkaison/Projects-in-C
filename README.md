@@ -136,7 +136,7 @@ The Phone Book can perform this following operations:
 For personal project support, join our Discord Server [here](https://discord.gg/dF4PHpA "Byte Hub Discord")
 
 ## MIT License - [here](https://github.com/Alkaison/Projects-in-C/blob/main/LICENSE.md "MIT License")
-
+```
 Copyright (c) 2022 Alkaison
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -156,3 +156,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
