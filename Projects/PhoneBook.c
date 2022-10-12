@@ -4,6 +4,11 @@
 #include<windows.h>
 #include<string.h>
 
+// Define KeyWords
+#define ENTER 13
+#define TAB 9
+#define BKSP 8
+
 // Function ProtoType
 void password(void);
 void menu(void);
@@ -25,51 +30,55 @@ int main(){
 //Explained the password function in proper detailed.
 void password()
 {
-    //clears the terminal screen
     system("cls");
 
-    //this will store the password entered by user
-    char code[12];
-    
-    //this is the correct password stored in database
-    //password max length can be only 11 -- if you want more change the array size of code & pass both
-    char pass[12] = {"Alkaison"};
+    char pwd[255];
+    char code[255] = {"Alkaison"};
+    int i = 0;
+	char ch;
 
-    //this is used for loops & termination of user input
-    int i;
+	printf("Enter your password. Hit ENTER to confirm. \n");
+	printf("Password:");
 
-    //this stores the length of password
-    int z = strlen(pass);
-
-    printf("Enter password: " );
-
-    //loop to get user input for password
-    for(i=0; i < z; i++)
+	while(1)
     {
-        code[i] = getch();
-        printf("*");
-    }
 
-    //adding this symbol '\0' at the end of password entered by user for termination 
-    code[i] = '\0';
+		ch = getch(); // get key
 
-    //comparing both passwords
-    if(strcmp(code, pass) == 0)
+		if(ch == ENTER || ch == TAB)
+        {
+			pwd[i] = '\0';
+			break;
+		}
+        else if(ch == BKSP)
+        {
+		    if(i > 0)
+            {
+				i--;
+				printf("\b \b"); // for backspace 
+			}
+		}
+        else
+        {
+			pwd[i++] = ch;
+			printf("* \b");	// to replace password character with * 
+		}
+	}
+
+	// printf("\n\nPassword:%s\nLength:%d\n\n", pwd, i);  -- prints the user input & lenght of string 
+
+    // verifies the password 
+    if(strcmp(code, pwd) == 0)
     {
-        printf("\n\nLogged in Successfully.");
-        printf("\nPress any key to continue.");
-
-        //holds the output screen
-        getch();
-
-        //opens the main menu for phonebook
+        printf("\nCorrect Password!");
+        Sleep(2000);
         menu();
     }
     else
     {
-        printf("\nInvalid Password.");
-        //this will end the program here itself safely
-        exit(0);
+        printf("\nInvaild Password!");
+        Sleep(2000);
+        password();
     }
 }    
 
