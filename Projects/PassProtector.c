@@ -1,14 +1,12 @@
-//default pre-defined library
 #include<stdio.h>
-
-//for using getch() function
 #include<conio.h>
-
-//for using strcmp() function
 #include<string.h>
-
-//for using exit(0) function
 #include<stdlib.h>
+
+// Define Constant KeyWords 
+#define ENTER 13
+#define TAB 9
+#define BKSP 8
 
 //Function protoType
 void password(void);
@@ -21,40 +19,54 @@ int main(){
 
 void password(){
     
-    //this will store the password entered by user
-    char code[12];
-    
-    //this is the correct password stored in database
-    //password max length can be only 11 -- if you want more change the array size of code & pass both
-    char pass[12] = {"Alkaison"};
+     system("cls");
 
-    //this is used for loops & termination of user input
-    int i;
+    char pwd[255];
+    char code[255] = {"Alkaison"};
+    int i = 0;
+	char ch;
 
-    //this stores the length of password
-    int z = strlen(pass);
+	printf("Enter your password. Hit ENTER to confirm. \n");
+	printf("Password:");
 
-    printf("Enter password: " );
-
-    //loop to get user input for password
-    for(i=0; i < z; i++)
+	while(1)
     {
-        code[i] = getch();
-        printf("*");
-    }
 
-    //adding this symbol '\0' at the end of password entered by user for termination 
-    code[i] = '\0';
+		ch = getch(); // get key
 
-    //comparing both passwords
-    if(strcmp(code, pass) == 0)
+		if(ch == ENTER || ch == TAB)
+        {
+			pwd[i] = '\0';
+			break;
+		}
+        else if(ch == BKSP)
+        {
+			if(i > 0)
+            {
+				i--;
+				printf("\b \b"); // for backspace
+			}
+		}
+        else
+        {
+			pwd[i++] = ch;
+			printf("* \b");	// to replace password character with * 
+		}
+	}
+
+	// printf("\n\nPassword:%s\nLength:%d\n\n", pwd, i);  -- prints the user input & lenght of string 
+    fflush(stdin);
+    // verifies the password 
+    if(strcmp(code, pwd) == 0)
     {
-        printf("\nLogged in Successfully.");
+        printf("\nCorrect Password! \n");
+        printf("\nPress any key to exit... \n");
+        getch();
     }
     else
     {
-        printf("\nInvalid Password.");
-        //this will end the program here itself safely
-        exit(0);
+        printf("\nInvaild Password! \n");
+        printf("\nPress any key to exit... \n");
+        getch();
     }
 } 
