@@ -3,7 +3,7 @@
 
  5+ Exciting C projects ideas with source code. Projects for beginners & first year students of CSE, IT, BCA.
 
-## 1. Calculator - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Calculator.c "Code for Calculator")
+## 1. Calculator - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Projects/Calculator.c "Code for Calculator")
 
 Simple Calculator made using C language can perform operations on multiple operators.
 
@@ -23,7 +23,7 @@ Simple Calculator made using C language can perform operations on multiple opera
 ### 02. Result Page
 ![Calculator Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/Calculator-2.png)
 
-## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/UnitConverter.c "Code for UnitConverter")
+## 2. Unit Converter - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Projects/UnitConverter.c "Code for UnitConverter")
 
 Unit Converter can perform conversions into 3 different categories - **Temperature, Mass, Currency**
 
@@ -56,7 +56,7 @@ The following conversions can be performed using this converter:
 ### 06. Grams to Pounds
 ![Unit Converter Image 6](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/UnitConverter-6.png)
 
-## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/FunHack.c "Code for FunHack")
+## 3. FunHack - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Projects/FunHack.c "Code for FunHack")
 
 Program that makes you feel like a hacker, works on terminals (command prompt) only. It executes linux based commands in your terminal & creates an infinity loop which keeps listing the current directory files.
 
@@ -69,7 +69,7 @@ Program that makes you feel like a hacker, works on terminals (command prompt) o
 ### 03. Hacked!
 ![FunHack Image 3](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/FunHack-3.png)
 
-## 4. PassProtector - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PassProtector.c "Code for PassProtector")
+## 4. PassProtector - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Projects/PassProtector.c "Code for PassProtector")
 
 Program which accepts the password in hidden format & tells whether its correct or not. Its very much useful for programs which stores data & wants to keep it secure from strangers access.
 
@@ -79,7 +79,7 @@ Program which accepts the password in hidden format & tells whether its correct 
 ### 02. Inavild Password
 ![PassProtector Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-2.png)
 
-## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/PhoneBook.c "Code for PhoneBook")
+## 5. PhoneBook - [Code here](https://github.com/Alkaison/Projects-in-C/blob/main/Projects/PhoneBook.c "Code for PhoneBook")
 
 Phone Book is secured with a layer of password screen to secure its access from strangers. This Phone Book project generates an external file to permanently store the user’s data (Name, Address, Mail-ID, Phone Number). Made using the concepts of File Management.
 
