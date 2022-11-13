@@ -19,12 +19,8 @@ void list(void);
 void delete(void);
 void end(void);
 
-int main(){
-
-    //login to access the files and functions.
+void main(){
     password();
-
-    return 0;
 }
 
 //Explained the password function in proper detailed.
@@ -134,8 +130,6 @@ label1:
         goto label1;
         break;
     }
-    
-    //Symbols: ↪⇒0⇐⇶▢▷▶◀◁◯⨠⫸ 
 }
 
 void add()
@@ -172,24 +166,19 @@ label1:
         fprintf(pF, "%s %s %s %.0lf \n", name, address, mail, number);
     }   
     else
-    {
         printf("Unable to open/locate the file.");
-    } 
 
     //closes the file
     fclose(pF);
-
     fflush(stdin);
 
     //retry screen
     char input;
     printf("Do you wanna enter more records [y/N]: ");
-    scanf("%c",&input);
+    scanf(" %c",&input);
 
     if(input == 'y' || input=='Y')
-    {
         goto label1;
-    }
     else if(input=='n' || input=='N')
     {
         printf("\nRedirecting to main menu.");
@@ -247,20 +236,16 @@ label2:
     fclose(pF);
 
     if(flag == 0)
-    {
         printf("\n>>> Record Not Found <<< \n");
-    }
 
     fflush(stdin);
 
     char input;
     printf("\nDo you wanna search for more records [y/N]: ");
-    scanf("%c",&input);
+    scanf(" %c",&input);
 
     if(input == 'y' || input=='Y')
-    {
         goto label2;
-    }
     else if(input=='n' || input=='N')
     {
         printf("\nRedirecting to main menu.");
@@ -322,9 +307,7 @@ void modify()
             flag = 1;
         }
         else
-        {
             fprintf(pTemp, "%s %s %s %.0lf \n", name, address, mail, number);
-        }
     }
 
         if(flag == 0)
@@ -477,5 +460,6 @@ void end()
     printf("Press any key to exit. \n");
 
     getch();
+    exit(0);
 
 }

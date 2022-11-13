@@ -11,10 +11,8 @@
 //Function protoType
 void password(void);
 
-int main(){
-
+void main(){
     password();
-    return 0;
 }
 
 void password(){
