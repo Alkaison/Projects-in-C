@@ -18,41 +18,30 @@ label1:
     printf("Here is a list of converters to choose from: \n");
     printf("Enter 'T' for Temperature convertion.\n");
     printf("Enter 'M' for Mass convertion.\n");
-    printf("Entre 'C' for Currency convertion.\n");
+    printf("Entre 'C' for Currency convertion.\n\n");
     printf("Enter input: ");
-    scanf("\n%c", &category);
+    scanf(" %c", &category);
 
     if(category=='T' || category=='t')
-    {
         temperature();
-    } else if (category=='M' || category=='m')
-    {
+    else if (category=='M' || category=='m')
         mass();
-    } else if (category=='C' || category=='c')
-    {
+    else if (category=='C' || category=='c')
         currency();
-    } else 
-    {
+    else 
         printf("ERROR: Invaild Input. \n ");
-    }
 
     //Prompt for try again ... 
     char retry;
     printf("\nDo you wanna try again [y/N]: ");
-    scanf("\n%c",&retry);
+    scanf(" %c",&retry);
 
     if(retry=='y' || retry=='Y')
-    {
         goto label1;
-    }
     else if (retry=='n' || retry=='N')
-    {
         printf("\nProgram Ended, Thanks for testing it.");
-    }
     else 
-    {
         printf("\nInvaild Input, Program Ended. ");
-    }
 
     return 0;
 }
@@ -96,9 +85,7 @@ void temperature()
         printf("Celsius: %.5f \n",celsius);
     } 
     else 
-    {
         printf("ERROR: Invaild Input.");
-    }
 }
 
 void mass()
@@ -138,9 +125,7 @@ void mass()
         printf("Pounds: %.2f \n",gramsToPounds);
     }
     else 
-    {
         printf("ERROR: Invaild Input.");
-    }
 }
 
 void currency()
@@ -199,7 +184,5 @@ void currency()
         printf("Indian Rupee: %.2f \n ",inr);
     }
     else
-    {
         printf("ERROR: Invaild Input.");
-    }
 }
