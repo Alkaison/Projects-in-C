@@ -20,7 +20,7 @@ label1:
     system("cls"); 
 
     printf("Enter the operator (+ - * / %) : ");
-    scanf("\n%c", &operator);
+    scanf(" %c", &operator);
 
     //check the input for operators
     if(operator=='+' || operator=='-' || operator=='*' || operator=='/' || operator=='%')
@@ -62,7 +62,7 @@ label1:
     
     //checks if user wants to use calculator again 
     printf("\nDo you waana try again [y/N]: ");
-    scanf("\n%c", &retry);
+    scanf(" %c", &retry);
 
     if(retry=='y' || retry=='Y')
     {
