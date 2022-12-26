@@ -88,7 +88,7 @@ Program which accepts the password in hidden format & tells whether its correct 
 
 ![PassProtector Image 1](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-1.png)
 
-### 02. Inavild Password
+### 02. Invalid Password
 
 ![PassProtector Image 2](https://github.com/Alkaison/Projects-in-C/blob/main/Project-Images/PassProtector-2.png)
 
