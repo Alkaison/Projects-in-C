@@ -8,40 +8,43 @@ void mass();
 
 int main(){
 
-label1:
+    char retry, category;
 
-    //clears the terminal screen
-    system("cls");
+    do
+    {
+        // clears the terminal screen
+        system("cls");
 
-    char category;
-    printf("Welcome to Unit Converter!\n");
-    printf("Here is a list of converters to choose from: \n");
-    printf("Enter 'T' for Temperature convertion.\n");
-    printf("Enter 'M' for Mass convertion.\n");
-    printf("Entre 'C' for Currency convertion.\n\n");
-    printf("Enter input: ");
-    scanf(" %c", &category);
+        printf("Welcome to Unit Converter!\n");
+        printf("Here is a list of converters to choose from: \n");
+        printf("Enter 'T' for Temperature convertion.\n");
+        printf("Enter 'M' for Mass convertion.\n");
+        printf("Entre 'C' for Currency convertion.\n\n");
+        printf("Enter input: ");
+        scanf(" %c", &category);
 
-    if(category=='T' || category=='t')
-        temperature();
-    else if (category=='M' || category=='m')
-        mass();
-    else if (category=='C' || category=='c')
-        currency();
-    else 
-        printf("ERROR: Invaild Input. \n ");
+        fflush(stdin);
 
-    //Prompt for try again ... 
-    char retry;
-    printf("\nDo you wanna try again [y/N]: ");
-    scanf(" %c",&retry);
+        switch (category)
+        {
+            case 'T':
+            case 't':
+                temperature();
+            case 'M':
+            case 'm':
+                mass();
+            case 'C':
+            case 'c':
+                currency();
+            default:
+                printf("\nError: Invalid Input. \n");
+        }
 
-    if(retry=='y' || retry=='Y')
-        goto label1;
-    else if (retry=='n' || retry=='N')
-        printf("\nProgram Ended, Thanks for testing it.");
-    else 
-        printf("\nInvaild Input, Program Ended. ");
+        printf("\nDo you wanna try again [y/N]: ");
+        scanf(" %c", &retry);
+        fflush(stdin);
+
+    } while (retry == 'y' || retry == 'Y');
 
     return 0;
 }
@@ -52,6 +55,8 @@ void temperature()
     system("cls");
 
     int input;
+    float  celsius, fahrenheit;
+    
     printf("Welcome to Temperature Converter!\n");
     printf("Here is a list of conversion to choose from: \n");
     printf("Enter 1 for Celsius to Fahrenheit. \n");
@@ -64,8 +69,6 @@ void temperature()
 
     if(input==1)
     {
-        float  celsius, fahrenheit;
-
         printf("Enter Celisus: ");
         scanf("%f",&celsius);
 
@@ -75,8 +78,6 @@ void temperature()
     } 
     else if (input==2)
     {
-        float fahrenheit, celsius;
-    
         printf("Enter Fahrenheit: ");
         scanf("%f",&fahrenheit);
 
