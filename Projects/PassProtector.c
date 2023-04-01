@@ -13,17 +13,17 @@ void password(void);
 
 void main(){
     password();
+    getch();
 }
 
 void password(){
-    
-     system("cls");
 
     char pwd[255];
     char code[255] = {"Alkaison"};
     int i = 0;
 	char ch;
 
+    system("cls");
 	printf("Enter your password. Hit ENTER to confirm. \n");
 	printf("Password:");
 
@@ -31,6 +31,7 @@ void password(){
     {
 
 		ch = getch(); // get key
+        fflush(stdin);  // clears the input buffer in console 
 
 		if(ch == ENTER || ch == TAB)
         {
@@ -52,19 +53,10 @@ void password(){
 		}
 	}
 
-	// printf("\n\nPassword:%s\nLength:%d\n\n", pwd, i);  -- prints the user input & lenght of string 
-    fflush(stdin);
+
     // verifies the password 
     if(strcmp(code, pwd) == 0)
-    {
         printf("\nCorrect Password! \n");
-        printf("\nPress any key to exit... \n");
-        getch();
-    }
     else
-    {
         printf("\nInvaild Password! \n");
-        printf("\nPress any key to exit... \n");
-        getch();
-    }
-} 
+}
