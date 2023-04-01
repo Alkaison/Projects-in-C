@@ -15,7 +15,7 @@
 | 5. | Simple Phonebook | [Link](Projects/PhoneBook.c "Code for PhoneBook") |
 | 6. | 45+ Programs | [Link](College_Programs "45+ programs") |
 
-### Advacne Projects
+### Advance Projects
 
 | Sr. No.  | Title | Link |
 | ------------- | ------------- | ------------- |
